@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+form label,
+form input,
+form select,
+form textarea {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 50px;
+}
+
+form {
+  width: 35%;
+  border: 1px solid black;
+  margin-left: 30%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: rgb(227, 231, 231);
+}
+
+h1 {
+  margin-left: 30%;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 44%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #026806;
+}
+
+form label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="tel"],
+form input[type="email"],
+form textarea {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #555;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+form select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #555;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+
+
+#nameLabel {
+  margin-top: 20px;
+}
+
+
+nav {
+  background-color: #333;
+  height: 48px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #111;
+}

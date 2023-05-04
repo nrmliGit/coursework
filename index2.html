@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index3.html">About Us</a></li>
+            <li><a href="index4.html">Contact Us</a></li>
+            <li><a class="active" href="#">Registration</a></li>
+        </ul>
+    </nav>
+    <h1>Enter your datas:</h1>
+    <form>
+        <label for="name" id="nameLabel">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="surname"><br><br>
+
+        <label for="birthdate">Date of birth:</label>
+        <input type="date" id="birthdate" name="birthdate"><br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="address">Address:</label>:</label>
+        <input type="text" id="address" name="address"><br><br>
+
+        <label for="job">Job:</label>
+        <input type="text" id="job" name="job"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="date">Date of registration:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="languages">Languages:</label>
+        <input type="text" id="languages" name="languages"><br><br>
+
+        <label for="skills">Skills:</label>
+        <input type="text" id="skills" name="skills"><br><br>
+
+        <label for="education">Education:</label>
+        <input type="text" id="education" name="education"><br><br>
+
+        <label for="work_experience">Work Experience:</label>
+        <textarea id="work_experience" name="work_experience"></textarea><br><br>
+
+        <label for="certifications">Certifications:</label>
+        <input type="text" id="certifications" name="certifications"><br><br>
+
+        <label for="interests">Interests:</label>
+        <textarea id="interests" name="interests"></textarea><br><br>
+
+
+    </form>
+
+
+
+    <button type="submit" onclick="alert('You are registered!')">Submit</button>
+
+</body>
+
+</html>
