@@ -110,3 +110,23 @@ h1 {
 .active {
   background-color: #111;
 }
+
+@media screen and (max-width: 768px) {
+  /* Adjust search input field on smaller screens */
+  #search-input {
+    margin-left: 10%;
+    margin-right: 10px;
+    width: 80%;
+  }
+
+  /* Adjust search button on smaller screens */
+  #search-btn {
+    margin-right: 10%;
+  }
+
+  /* Adjust job item container on smaller screens */
+  .job-item {
+    width: 90%;
+    margin-left: 5%;
+  }
+}

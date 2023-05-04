@@ -119,3 +119,57 @@ li a:hover {
 .active {
   background-color: #111;
 }
+
+@media screen and (max-width: 480px) {
+
+  form {
+  width: 90%;
+  margin-left: 5%;
+  }
+  
+  h1 {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  }
+  
+  button {
+  margin-left: 20%;
+  margin-right: 20%;
+  }
+  
+  form label,
+  form input,
+  form select,
+  form textarea {
+  margin-left: 10px;
+  }
+  
+  nav {
+  height: auto;
+  }
+  
+  ul {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  li {
+  margin-bottom: 10px;
+  }
+  
+  li:last-child {
+  margin-bottom: 20px;
+  }
+  
+  li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  }
+  
+  }

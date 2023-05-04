@@ -55,6 +55,34 @@
             background-color: white;
             border: 1px solid #ccc;
         }
+
+        @media only screen and (max-width: 600px) {
+      nav {
+        height: auto;
+      }
+
+      ul {
+        flex-direction: column;
+      }
+
+      li {
+        float: none;
+      }
+
+      li a {
+        display: block;
+        text-align: left;
+      }
+
+      .active {
+        background-color: #111;
+      }
+
+      section {
+        margin: 10px;
+        padding: 10px;
+      }
+    }
     </style>
 </head>
 
